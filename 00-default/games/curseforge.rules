@@ -1,0 +1,4 @@
+# Curseforge app (Minecraft)
+# https://www.curseforge.com/download/app
+{ "name": "curseforge", "type": "Game" }
+{ "name": "curseforge.appimage", "type": "Game" }
