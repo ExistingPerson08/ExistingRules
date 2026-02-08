@@ -1,6 +1,8 @@
+# Maintainer: ExistingPerson08
+
 pkgname=existing-rules-git
 _gitname=ExistingRules
-pkgver=20230613.r319.gf139cf4
+pkgver=.r5.g80eeaf5
 pkgrel=1
 groups=('Spacefin')
 arch=('any')
@@ -21,6 +23,7 @@ pkgver() {
 prepare() {
   cd $_gitname
   rm -f README.md
+  rm -f LICENSE
 }
 
 package() {
